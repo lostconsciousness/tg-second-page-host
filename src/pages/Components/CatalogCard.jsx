@@ -1,14 +1,18 @@
 import React from 'react';
 import "./Card.css";
  function CatalogCard({picture, name, price, currencyId}) {
-//function CatalogCard({img, name}) {
   return ( <div className='menu'>
-  <div className='img_container'>
-      <img src ={picture} className='img_menu' alt=""/>
+  <div>
+    <div className='img_container'>
+      <img src ={picture} className='img_catalog' alt=""/>
     </div>
 
-  <div className='menutext'>{name}</div>
-  <button>{price} {currencyId}</button>
+  <div className='menutext_catalog'>{name}</div>
+  </div>
+  <div className='button'>
+    <button className='btn'>{price} {currencyId}</button>
+  </div>
+  
 </div>)
 }
 

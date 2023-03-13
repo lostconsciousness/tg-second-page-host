@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(0, 0, 0, 0.822);;
+  background-color: rgba(0, 0, 0, 0.822);
 }
 
 code {
@@ -46,3 +46,60 @@ font-weight: bold;
   display: grid;
   align-content: space-around;
 }
+.btn{
+    width: 80%;
+    height: 4vh;
+    color: black;
+    background-color: rgb(255 182 52);
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1vh;
+    font-size: 2.5vh;
+    border: 2px solid;
+    border-radius: 17%;
+    font-weight: 600;
+    border-color: rgb(255 182 52);
+}
+.button{
+  width: 100%;
+  align-items: center;
+}
+.menutext_catalog{
+  font-weight: bold;
+  font-size: 79%;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  text-align: center;
+  margin-bottom: 2vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+  .img_catalog{
+    margin-top: 2vh;
+    width: 11vh;
+    height: 11vh;
+    margin-bottom: 1vh;
+  }
+  .ctg_cat{
+    display: flex;
+    color: white;
+    font-size: 4vh;
+    margin-top: -10vh;
+    margin-bottom: 3vh;
+    position: relative;
+    background: rgb(45 45 45);
+    width: 100%;
+    margin-left: -7vw;
+    flex-direction: row;
+    align-items: center;
+  }
+  .text{
+    margin-left: 12%;
+    margin-top: 1.5vh;
+    margin-bottom: 2%;
+    font-family: inherit;
+  }
+  a:link { text-decoration: none; 
+  color: white;}
