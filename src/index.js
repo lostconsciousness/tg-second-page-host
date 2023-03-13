@@ -13,8 +13,8 @@ root.render(
     <React.StrictMode>
     <Router>
     <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/heater' element={<Heater />} />
+        {/* <Route exact path='/' element={<Home />} /> */}
+        <Route path='/' element={<Heater />} />
     </Routes>
     </Router>
     {/* "CatalogCard name="{getData()[i].name}"  " */}
